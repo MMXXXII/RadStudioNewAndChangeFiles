@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.706,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.375,C:\Users\PC\Desktop\практика\Unit1.cpp=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.375,C:\Users\PC\Desktop\практика\Unit1.h=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.352,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.318,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.706,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.391,C:\Users\PC\Desktop\практика\Project1.cbproj=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.225,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.616,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>2024.06.21 20:18:47.276,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>2024.06.21 20:18:47.352,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>2024.06.21 22:53:31.353,C:\Users\PC\Desktop\практика\Project1PCH1.h=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>2024.06.21 22:53:31.375,C:\Users\PC\Desktop\практика\Unit1.cpp=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>2024.06.21 22:53:31.375,C:\Users\PC\Desktop\практика\Unit1.h=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
-    <Transaction>2024.06.21 22:53:31.375,C:\Users\PC\Desktop\практика\Unit1.dfm=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2024.06.21 22:53:31.391,C:\Users\PC\Desktop\практика\Project1.cbproj=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.276,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.353,C:\Users\PC\Desktop\практика\Project1PCH1.h=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.375,C:\Users\PC\Desktop\практика\Unit1.dfm=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>
