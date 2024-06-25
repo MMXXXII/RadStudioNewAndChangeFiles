@@ -1,17 +1,17 @@
-#include <vcl.h>  // Заголовочный файл VCL (Visual Component Library) для работы с элементами интерфейса
+#include <vcl.h>
 #pragma hdrstop
 
-#include "Unit1.h"  // Заголовочный файл, связанный с формой TForm1
-#include <iostream>  // Для стандартного ввода-вывода
-#include <fstream>  // Для работы с файловыми потоками
+#include "Unit1.h"
+#include <iostream>
+#include <fstream>
 #include <unordered_map>  // Для использования хэш-таблицы (ассоциативного контейнера)
 #include <filesystem>  // Для работы с файловой системой
 #include <chrono>  // Для работы с временем и таймерами
 #include <ctime>  // Для работы с временем и датой
-#include <vector>  // Для использования динамических массивов
+#include <vector>
 #include <sstream>  // Для работы с потоками строк
 #include <iomanip>  // Для манипуляции форматами ввода-вывода
-#include <windows.h>  // Для работы с Windows API
+#include <windows.h>
 
 namespace fs = std::filesystem; // Объявляем псевдоним для пространства имен std::filesystem
 using namespace std;
@@ -189,6 +189,12 @@ void handle_updated_files(const string& directory_to_scan, const string& updated
 
 // Функция для обработки оставшихся файлов
 void handle_remaining_files(const string& directory_to_scan) {
+
+    if (!is_directory(directory_to_scan)) { // Проверяем, является ли путь директорией
+        ShowMessage("Введенная строка не является папкой. Пожалуйста, введите корректный путь.");  // Выводим сообщение об ошибке
+        return;
+	}
+
     const string new_files_registry_filename = "new_files_registry.txt";  // Имя файла для реестра новых файлов
     const string updated_files_registry_filename = "updated_files_registry.txt";  // Имя файла для реестра обновленных файлов
 
